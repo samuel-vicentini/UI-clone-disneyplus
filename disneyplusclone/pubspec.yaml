@@ -1,0 +1,176 @@
+name: prova2tri_disneyplusclone
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  animated_splash_screen: ^1.3.0
+  carousel_slider: ^4.1.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/disney_plus_logo.png
+    - assets/perfil/mandalorian.png
+    - assets/perfil/darthvader.png
+    - assets/perfil/panda.png
+    - assets/perfil/frozen.png
+    - assets/generos/disney.png
+    - assets/generos/marvel.png
+    - assets/generos/natgeo.png
+    - assets/generos/pixar.png
+    - assets/generos/starwars.png
+    - assets/posteres/carrossel/1.jpg
+    - assets/posteres/carrossel/2.jpg
+    - assets/posteres/carrossel/3.jpg
+    - assets/posteres/carrossel/4.jpg
+    - assets/posteres/carrossel/5.jpg
+    - 'assets/posteres/marvel/1.jpg'
+    - 'assets/posteres/marvel/2.jpg'
+    - 'assets/posteres/marvel/3.jpg'
+    - 'assets/posteres/marvel/4.jpg'
+    - 'assets/posteres/marvel/5.jpg'
+    - 'assets/posteres/marvel/6.jpg'
+    - 'assets/posteres/marvel/7.jpg'
+    - 'assets/posteres/marvel/8.jpg'
+    - 'assets/posteres/marvel/9.jpg'
+    - 'assets/posteres/marvel/10.jpg'
+    - 'assets/posteres/marvel/11.jpg'
+    - 'assets/posteres/marvel/12.jpg'
+    - 'assets/posteres/starwars/1.jpg'
+    - 'assets/posteres/starwars/2.jpg'
+    - 'assets/posteres/starwars/3.jpg'
+    - 'assets/posteres/starwars/4.jpg'
+    - 'assets/posteres/starwars/5.jpg'
+    - 'assets/posteres/starwars/6.jpg'
+    - 'assets/posteres/starwars/7.jpg'
+    - 'assets/posteres/starwars/8.jpg'
+    - 'assets/posteres/starwars/9.jpg'
+    - 'assets/posteres/starwars/10.jpg'
+    - 'assets/posteres/starwars/11.jpg'
+    - 'assets/posteres/disney/1.jpg'
+    - 'assets/posteres/disney/2.jpg'
+    - 'assets/posteres/disney/3.jpg'
+    - 'assets/posteres/disney/4.jpg'
+    - 'assets/posteres/disney/5.jpg'
+    - 'assets/posteres/disney/6.jpg'
+    - 'assets/posteres/pixar/1.jpg'
+    - 'assets/posteres/pixar/2.jpg'
+    - 'assets/posteres/pixar/3.jpg'
+    - 'assets/posteres/pixar/4.jpg'
+    - 'assets/posteres/pixar/5.jpg'
+    - 'assets/posteres/pixar/6.jpg'
+    - 'assets/posteres/pixar/7.jpg'
+    - 'assets/posteres/pixar/8.jpg'
+    - 'assets/posteres/pixar/9.jpg'
+    - 'assets/posteres/pixar/10.jpg'
+    - 'assets/posteres/natgeo/1.jpg'
+    - 'assets/posteres/natgeo/2.jpg'
+    - 'assets/posteres/natgeo/3.jpg'
+    - 'assets/posteres/natgeo/4.jpg'
+    - assets/pesquisar/originais.png
+    - assets/pesquisar/filmes.png
+    - assets/pesquisar/series.png
+    - assets/pesquisar/colecao/1.png
+    - assets/pesquisar/colecao/2.png
+    - assets/pesquisar/colecao/3.png
+    - assets/pesquisar/colecao/4.png
+    - assets/pesquisar/colecao/5.png
+    - assets/pesquisar/colecao/6.png
+    - assets/pesquisar/colecao/7.png
+    - assets/pesquisar/colecao/8.png
+    - assets/pesquisar/colecao/9.png
+    - assets/pesquisar/colecao/10.png
+    - assets/pesquisar/colecao/11.png
+    - assets/pesquisar/colecao/12.png
+    - assets/pesquisar/colecao/13.png
+    - assets/pesquisar/colecao/13.png
+    - assets/pesquisar/colecao/14.png
+    - assets/pesquisar/colecao/15.png
+    - assets/pesquisar/colecao/16.png
+    - assets/pesquisar/colecao/17.png
+    - assets/pesquisar/colecao/18.png
+    - assets/pesquisar/colecao/19.png
+    - assets/pesquisar/colecao/20.png
+    - assets/catalogos/disney.jpeg
+    - assets/catalogos/pixar.jpg
+    - assets/catalogos/marvel.jpg
+    - assets/catalogos/starwars.jpg
+    - assets/catalogos/natgeo.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
