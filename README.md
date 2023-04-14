@@ -8,7 +8,7 @@ Esse projeto foi feito como trabalho do curso técnico em informática realizado
 </div>
 
 <br/>
-No diretório do projeto é possível ver as imagens mostrando os resultados do projeto.
+No diretório do projeto é possível ver as imagens mostrando o resultado final do projeto.
 <br/>
 
 ## Contato
